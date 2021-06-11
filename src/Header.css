@@ -64,11 +64,14 @@
     flex-direction:column
 }
 .header__bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     position: absolute;
     top:40%;
     width:80%;
     margin-left:10%;
-    z-index: 10;
+    z-index: 2;
 }
 .header__btmname{
     color:white;
@@ -89,10 +92,17 @@
     .header__hidden{
         visibility:hidden;
     }
+
 }
 @media (max-width:700px){
     .header__name{
         display:none;
+    }
+    .header__btmname{
+        font-size:60px ;
+    }
+    .header__des{
+        font-size: 15px;
     }
 }
 

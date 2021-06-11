@@ -36,8 +36,8 @@
     margin: 50px 0;
     display: flex;
     padding:10px;
-    overflow: hidden;
     justify-content:space-between;
+    overflow:scroll;
 
 }
 .review__details{
