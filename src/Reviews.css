@@ -1,0 +1,76 @@
+.review{
+    width:80%;
+    margin: auto;
+    padding:50px 0;
+}
+.review__header{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    color: white;
+}
+.review__header>h1{
+    font-family: 'Abhaya Libre', serif;
+    font-size:45px;
+    font-weight: 300;
+}
+.review__header>h1>span{
+    border-bottom: 2px solid blue;
+}
+.review__header-side{
+    display:flex;
+    color: gray;
+}
+.review__header-side>p{
+    font-size:20px;
+    margin-right: 10px;
+}
+.review__header-side>p>span{
+    color:white;   
+}
+.review__icon{
+    margin:2px;
+}
+.review__main{
+    width:100%;
+    margin: 50px 0;
+    display: flex;
+    padding:10px;
+    overflow: hidden;
+    justify-content:space-between;
+
+}
+.review__details{
+    width: 350px;height:250px;
+    background-color:#0A0B1A;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    border:3px solid gold;
+    border-radius:20px;
+    box-shadow: 10px -10px #3D80AF;
+    margin-right: 60px;
+    overflow: scroll;
+    flex-shrink: 0;
+}
+.review__details-top{
+    width:80%;
+    padding-top: 40px;
+    
+}
+.review__details-top,.review__detail-bottom{
+    display:flex;
+    align-items: center;  
+    color:white;
+}
+.review__details-top >div{
+    margin-left:20px;
+}
+.review__text{
+    width:80%;
+    margin:auto;
+    padding:10px;
+    align-items: center;
+    color:white;
+}

@@ -1,0 +1,60 @@
+.banner{
+    height:330px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: -17vh;
+    z-index: 1;
+    width:80%;
+    overflow: scroll; 
+    padding: 0 10px ;
+}
+.banner__names ,.banner__name{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    width:250px;
+    height: 250px;
+    border-radius:50%;
+    background-color:rgba(10,11,26,1);
+    flex-shrink:0;
+    border-width: 10px;
+   
+   
+}
+.banner__name{
+   border:1px solid gray;
+}
+.banner__name::after{
+    content:"";
+    width: 248px;
+    height: 248px;
+    background-color:gray;
+    border: 1px solid transparent;
+    border-radius:100%; 
+    position: absolute;
+    z-index:-1;
+   
+}
+.banner__names::after{
+    border-width: 2px;
+    border-top-color: rgb(202, 9, 160);
+    border-right-color:rgb(202, 9, 160) ;
+    border-bottom-color: rgb(202, 9, 160) ;  
+    transform:rotate(20deg)
+}
+
+.banner__icon{
+    color:rgb(6, 6, 206);
+    transform: scale(1.7);
+    margin-bottom: 20px;
+}
+.banner__name > span,.banner__name>p{
+    font-size:30px;
+    color:white;
+    padding: 5px 0;
+}
